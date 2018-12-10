@@ -1,0 +1,33 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Basic jQuery Form</title>
+    <script type='text/javascript' src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+</head>
+
+<body>
+    <form name="myForm">
+        <div>
+            <label for="code">Code:</label>
+            <input id="code" name="code" type="text" />
+        </div>
+        <div>
+            <label for="message">Message:</label>
+            <input id="message" name="message" type="text" />
+        </div>
+        <div>
+                <label for="message">Picture:</label>
+                <input id="attachment" name="attachment" type="file" />
+        </div>
+        <img name="picture" src="" alt="Picture"></img>
+        <div>
+            <input type="button" name="bntGet" value="Get Submit" />
+            <input type="button" name="bntPostJson" value="Post Json Submit" />
+            <input type="button" name="bntPostFormdata" value=" Post Formdata Submit" />
+        </div>
+    </form>
+    <script type='text/javascript' src="basic-client.js"></script>
+</body>
+
+</html>
